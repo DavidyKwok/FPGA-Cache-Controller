@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_project1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_project1" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_project1/clk_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/rst_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_CPU/trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trig</obj_property>
+      <obj_property name="ObjectShortName">trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_CPU/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_CPU/cs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_CPU/wr_rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_rd</obj_property>
+      <obj_property name="ObjectShortName">wr_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_cache_controller/rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rdy</obj_property>
+      <obj_property name="ObjectShortName">rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_cache_controller/mem_strb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_strb</obj_property>
+      <obj_property name="ObjectShortName">mem_strb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_cache_controller/mem_wr_rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wr_rd</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_cache_controller/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_cache_controller/mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/mem_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_bram/douta" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/din_cpu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din_cpu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_cpu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/dout_cache" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout_cache[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_cache[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_cache_controller/valid_bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_bits[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_bits[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_project1/DUT/C_cache/C_cache_controller/dirty_bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dirty_bits[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dirty_bits[7:0]</obj_property>
+   </wvobject>
+</wave_config>
