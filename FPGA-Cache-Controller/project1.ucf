@@ -1,2 +1,0 @@
-Net "clk" LOC = "C9" | IOSTANDARD = LVCMOS33;
-Net "rst" LOC = "L13" | IOSTANDARD = LVCMOS33;
